@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect("mongodb://http://localhost:27017//weight-tracker", {
+mongoose.connect("mongodb://localhost:27017//weight-tracker", {
   // useNewUrlParser: true,
   // useUnifiedTopology: true,
 });
